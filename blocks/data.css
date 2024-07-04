@@ -1,0 +1,26 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  margin: 0 auto;
+}
+.data__title {
+  text-align: center;
+}
+.data__paragraph {
+  text-align: center;
+}
+.data__graphic {
+  width: 300px;
+}
+
+@media screen and (min-width: 800px) {
+  .data {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .data__graphic {
+    width: 500px;
+  }
+}

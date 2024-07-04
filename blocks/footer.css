@@ -1,0 +1,34 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.footer__column-left {
+  display: flex;
+  justify-content: center;
+}
+.footer__logo {
+  width: 40%;
+  margin: 10% auto;
+  margin-top: 10%;
+}
+.footer__column-right {
+  margin-top: 10%;
+}
+.footer__title {
+  color: #fff;
+}
+.footer__paragraph {
+  color: #fff;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 800px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

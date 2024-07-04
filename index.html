@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis Gonzalez" />
+    <meta name="description" content="Hackathon" />
+    <meta name="keywords" content="HTML, CSS, Javascript, Python " />
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header" id="nav">
+        <h1 class="header__title">The Data Guys</h1>
+        <nav class="header__nav">
+          <ul class="header__nav-links">
+            <li>
+              <a href="#problema" class="header__nav-link">Problema</a>
+            </li>
+            <li>
+              <a href="#datos" class="header__nav-link">datos</a>
+            </li>
+            <li>
+              <a href="#solucion" class="header__nav-link">Solucion</a>
+            </li>
+            <li>
+              <a href="#footer" class="header__nav-link">The Data Guys</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="problem" id="problema">
+          <h2 class="problem__title">Titulo o problema a analisar</h2>
+          <p class="problem__paragraph">Explicacion del problema</p>
+          <div class="problem__line"></div>
+        </section>
+        <section class="data data__1" id="datos">
+          <div class="data__column-left">
+            <h2 class="data__title">Titulo de la grafica 1</h2>
+            <p class="data__paragraph">Explicacion de grafica 1</p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica1.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__2">
+          <div class="data__column-left">
+            <h2 class="data__title">Titulo de la grafica 2</h2>
+            <p class="data__paragraph">Explicacion de grafica 2</p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica2.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__3">
+          <div class="data__column-left">
+            <h2 class="data__title">Titulo de la grafica 3</h2>
+            <p class="data__paragraph">Explicacion de grafica 3</p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica3.PNG" alt="" />
+          </div>
+        </section>
+        <section class="solution" id="solucion">
+          <div class="solution__column-left">
+            <h2 class="solution__title">Solución</h2>
+            <p class="solution__paragraph">Explicacion de la solucion</p>
+          </div>
+          <div class="solution__column-right">
+            <img class="solution__graphic" src="./images/grafica4.PNG" alt="" />
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__column-left">
+          <img class="footer__logo" src="./images/TripletenLogo-1.svg" alt="" />
+        </div>
+        <div class="footer__column-right">
+          <h3 class="footer__title">&#169; 2024 The Data Guys</h3>
+          <p class="footer__paragraph">Omar Alonso Hernández Vergara</p>
+          <p class="footer__paragraph">Claudio Mauricio Merino Besele</p>
+          <p class="footer__paragraph">Catalina Belén Rivera Peña</p>
+          <p class="footer__paragraph">Paola Flores Cedillo</p>
+          <p class="footer__paragraph">Samantha Magdalena López Estudillo</p>
+          <p class="footer__paragraph">Luis Enrique Gonzalez Hernandez</p>
+        </div>
+      </footer>
+    </div>
+    <a class="goToTopButton" href="#nav"
+      ><p class="goToTopButton__text">&#8593;</p></a
+    >
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./scripts/js/canvas.js"></script>
+  </body>
+</html>
