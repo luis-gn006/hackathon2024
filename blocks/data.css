@@ -12,7 +12,9 @@
   text-align: center;
 }
 .data__graphic {
-  width: 300px;
+  width: 95%;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 
 @media screen and (min-width: 800px) {
@@ -27,6 +29,7 @@
     font-size: 18px;
   }
   .data__graphic {
-    width: 500px;
+    width: 95%;
+    margin-left: 3%;
   }
 }
