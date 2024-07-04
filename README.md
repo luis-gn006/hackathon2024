@@ -22,7 +22,7 @@
 
 ### Este es mi primer proyecto en el que se implementará Javascript, como muestra de ello se va a programar una ventana modal con formularios de información del usuario. Lo más importante de esto, es que los datos guardados si se reflejen en la página.
 
-## Link de Github pages para visualizar mi pagina: https://luis-gn006.github.io/web_project_around/index.html
+## Link de Github pages para visualizar mi pagina: https://luis-gn006.github.io/hackathon2024/index.html
 
 # © Luis Gonzalez
 
