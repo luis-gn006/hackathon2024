@@ -1,4 +1,4 @@
-.solution {
+.recomendation {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,29 +6,33 @@
   padding-bottom: 4%;
 }
 
-.solution__title {
+.recomendation__title {
   text-align: center;
 }
-.solution__paragraph {
+.recomendation__paragraph {
   text-align: center;
 }
-.solution__graphic {
+.recomendation__graphic {
   width: 95%;
   margin-left: 3%;
   margin-top: 2%;
 }
+.recomendation__image {
+  width: 10%;
+  margin-top: 3%;
+}
 
 @media screen and (min-width: 800px) {
-  .solution {
+  .recomendation {
     margin: 0 2%;
   }
-  .solution__title {
+  .recomendation__title {
     font-size: 28px;
   }
-  .solution__paragraph {
+  .recomendation__paragraph {
     font-size: 18px;
   }
-  .solution__graphic {
+  .recomendation__graphic {
     width: 95%;
   }
 }
