@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   margin-left: 13%;
+  margin-bottom: 2%;
 }
 
 .navigation-btn {
@@ -32,12 +33,4 @@
 
 #radio2:checked ~ .first {
   margin-left: -20%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -40%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: -60%;
 }

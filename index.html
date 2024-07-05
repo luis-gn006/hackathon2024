@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Luis Gonzalez" />
     <meta name="description" content="Hackathon" />
-    <meta name="keywords" content="HTML, CSS, Javascript, Python " />
+    <meta name="keywords" content="HTML, CSS" />
     <title>Hackathon</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
@@ -24,7 +24,7 @@
               <a href="#ventas" class="header__nav-link">Ventas</a>
             </li>
             <li class="burgerbutton__list-item">
-              <a href="#solucion" class="header__nav-link">Solucion</a>
+              <a href="#solucion" class="header__nav-link">Recomendación</a>
             </li>
             <li class="burgerbutton__list-item">
               <a href="#footer" class="header__nav-link">The Data Guys</a>
@@ -40,7 +40,7 @@
               <a href="#ventas" class="header__nav-link">Ventas</a>
             </li>
             <li>
-              <a href="#solucion" class="header__nav-link">Solucion</a>
+              <a href="#solucion" class="header__nav-link">Recomendación</a>
             </li>
             <li>
               <a href="#footer" class="header__nav-link">The Data Guys</a>
@@ -51,6 +51,13 @@
       <main>
         <section class="aboutus" id="nosotros">
           <h2 class="aboutus__title">¿Quiénes somos?</h2>
+          <p class="aboutus__paragraph">
+            Somos The Data Guys, un grupo de entusiastas de los datos dedicados
+            a colaborar con empresas de Retail, ayudándolos a generar valor a su
+            negocio a través del análisis de datos, entre los servicios que
+            aportamos: Estadística descriptiva Segmentación de clientes Análisis
+            predictivos Recomendaciones para la toma de decisiones
+          </p>
           <p class="aboutus__paragraph">
             Somos una empresa de venta de “En Línea” con presencia en más de 30
             países.
@@ -69,13 +76,28 @@
             a Reino Unido, Países Bajos, Irlanda, Alemania, entre otros.
           </p>
           <iframe
-            src="./data/income_by_cluster.html"
+            src="./data/front_map.html"
             frameborder="0"
             class="data__iframe"
           ></iframe>
           <div class="aboutus__line"></div>
         </section>
         <section class="data data__1" id="ventas">
+          <h2 class="data__title">
+            Mapa de Calor de Pedidos alrededor del mundo
+          </h2>
+          <p class="data__paragraph">
+            Europa es el continente con mayores ventas, en Reino Unido se
+            registra más del 90% de las ventas de la compañía
+          </p>
+
+          <iframe
+            src="./data/invoice_q_map.html"
+            frameborder="0"
+            class="data__iframe"
+          ></iframe>
+        </section>
+        <section class="data data__2">
           <div class="data__column-left">
             <h2 class="data__title">Nuestras Ventas</h2>
             <p class="data__paragraph">
@@ -86,9 +108,17 @@
             <img class="data__graphic" src="./images/grafica1.PNG" alt="" />
           </div>
         </section>
-        <section class="data data__2">
-          <h2 class="data__title">Ventas por región:</h2>
-          <p class="data__paragraph">Explicacion de grafica 2</p>
+        <section class="data data__3">
+          <h2 class="data__title">Ventas por región</h2>
+          <p class="data__paragraph">
+            Las ventas del E-comerce se distribuyen principalmente en estos
+            países, siendo el Reino Unido el lugar de donde se hacen la mayor
+            parte de los pedidos.
+          </p>
+          <p class="data__paragraph">
+            El Reino Unido es la región que más ventas registra (con más del 90%
+            de los registros).
+          </p>
           <div class="slider">
             <div class="slides">
               <input
@@ -103,72 +133,203 @@
                 name="radio-btn"
                 id="radio2"
               />
-              <input
-                class="slides__input"
-                type="radio"
-                name="radio-btn"
-                id="radio3"
-              />
-              <input
-                class="slides__input"
-                type="radio"
-                name="radio-btn"
-                id="radio4"
-              />
+
               <div class="slide first">
-                <img src="./images/grafica1.PNG" class="slide__image" alt="" />
-              </div>
-              <div class="slide">
                 <img src="./images/grafica2.PNG" class="slide__image" alt="" />
               </div>
               <div class="slide">
                 <img src="./images/grafica3.PNG" class="slide__image" alt="" />
               </div>
-              <div class="slide">
-                <img src="./images/grafica4.PNG" class="slide__image" alt="" />
-              </div>
             </div>
             <div class="navigation">
               <label for="radio1" class="navigation-btn"></label>
               <label for="radio2" class="navigation-btn"></label>
-              <label for="radio3" class="navigation-btn"></label>
-              <label for="radio4" class="navigation-btn"></label>
             </div>
-          </div>
-        </section>
-        <section class="data data__3">
-          <div class="data__column-left">
-            <h2 class="data__title">Ventas por cliente:</h2>
-            <p class="data__paragraph">Explicacion de grafica 3</p>
-          </div>
-          <div class="data__column-right">
-            <img class="data__graphic" src="./images/grafica3.PNG" alt="" />
           </div>
         </section>
         <section class="data data__4">
           <div class="data__column-left">
-            <h2 class="data__title">Top de productos por región</h2>
-            <p class="data__paragraph">Explicacion de grafica 3</p>
+            <h2 class="data__title">
+              Top 5 productos más vendidos en el Reino Unido
+            </h2>
+            <p class="data__paragraph">
+              El producto más vendido “Regency Cakestand 3 tier”, representa el
+              1.64% de la venta total del Reino Unido.
+            </p>
           </div>
-          <div class="data__column-right"></div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica4.PNG" alt="" />
+          </div>
         </section>
         <section class="data data__5">
           <div class="data__column-left">
-            <h2 class="data__title">Top de productos por temporada</h2>
-            <p class="data__paragraph">Explicacion de grafica 3</p>
+            <h2 class="data__title">
+              ¿Cuál es el monto que gasta cada cliente?
+            </h2>
+            <p class="data__paragraph">
+              En promedio nuestros clientes gastan 300 euros en cada pedido.
+            </p>
           </div>
           <div class="data__column-right">
-            <img class="data__graphic" src="./images/grafica3.PNG" alt="" />
+            <img class="data__graphic" src="./images/grafica5.PNG" alt="" />
           </div>
         </section>
+        <section class="data data__6">
+          <div class="data__column-left">
+            <h2 class="data__title">Cluster 4: Clientes de alto valor</h2>
+            <p class="data__paragraph">
+              Características: Muy activos, alta frecuencia, alto valor
+            </p>
+            <p class="data__paragraph">
+              Estrategia: Retención y maximización de valor
+            </p>
+            <p class="data__paragraph">
+              Acciones: Implementar programa VIP exclusivo Ofrecer acceso
+              anticipado a nuevos productos Proporcionar servicio al cliente
+              dedicado
+            </p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica6.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__7">
+          <div class="data__column-left">
+            <h2 class="data__title">
+              Cluster 3: Clientes activos de valor medio
+            </h2>
+            <p class="data__paragraph">
+              Características: Activos, frecuencia media, valor medio
+            </p>
+            <p class="data__paragraph">
+              Estrategia: Incremento de valor por compra
+            </p>
+            <p class="data__paragraph">
+              Acciones: Crear programa de escalado de compras Ofrecer paquetes
+              de productos para aumentar el valor por transacción Desarrollar
+              contenido educativo sobre productos premium
+            </p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica7.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__8">
+          <div class="data__column-left">
+            <h2 class="data__title">
+              Cluster 2: Clientes recientes de bajo valor
+            </h2>
+            <p class="data__paragraph">
+              Características: Recientes, baja frecuencia, bajo valor
+            </p>
+            <p class="data__paragraph">
+              Estrategia: Aumento de frecuencia y valor
+            </p>
+            <p class="data__paragraph">
+              Acciones: Lanzar campaña de "segunda compra" con incentivos
+              Implementar sistema de recomendaciones personalizadas Introducir
+              programa de fidelización básico
+            </p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica8.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__9">
+          <div class="data__column-left">
+            <h2 class="data__title">
+              Cluster 1: Clientes de valor medio con baja recencia
+            </h2>
+            <p class="data__paragraph">
+              Características: Baja recencia, frecuencia media, valor medio
+            </p>
+            <p class="data__paragraph">
+              Estrategia: Reactivación personalizada
+            </p>
+            <p class="data__paragraph">
+              Acciones: Desarrollar campaña "te extrañamos" con ofertas
+              especiales Enviar recordatorios de productos previamente comprados
+              Realizar encuesta para entender razones de inactividad
+            </p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica9.PNG" alt="" />
+          </div>
+        </section>
+        <section class="data data__10">
+          <div class="data__column-left">
+            <h2 class="data__title">
+              Cluster 0: Clientes inactivos de bajo valor
+            </h2>
+            <p class="data__paragraph">
+              Características: Muy baja recencia, baja frecuencia, bajo valor
+            </p>
+            <p class="data__paragraph">
+              Estrategia: Recuperación y reactivación
+            </p>
+            <p class="data__paragraph">
+              Acciones: Lanzar campaña de "última oportunidad" con descuentos
+              significativos Implementar programa de reactivación por etapas
+              Evaluar ROI de marketing para este grupo
+            </p>
+          </div>
+          <div class="data__column-right">
+            <img class="data__graphic" src="./images/grafica10.PNG" alt="" />
+          </div>
+        </section>
+        <section class="cluster">
+          <img class="cluster__graphic" src="./images/grafica12.jfif" alt="" />
+          <img class="cluster__graphic" src="./images/grafica13.jfif" alt="" />
+          <iframe
+            src="./data/income_by_cluster.html"
+            frameborder="0"
+            class="data__iframe"
+          ></iframe>
+        </section>
+        <section class="data data__11">
+          <h2 class="data__title">
+            Desempeño de métricas para modelos de Machine Learning
+          </h2>
+          <p class="data__paragraph">
+            Podemos observar que el modelo “Random Forest” fue el que tuvo el
+            mejor desempeño superando el 97% de precisión para las predicciones,
+            seguido de él, encontramos como alternativa el Gradient Boosting que
+            nos ofrece métricas similares y tiene ventajas sobre tiempo de
+            procesamiento
+          </p>
+
+          <img class="data__graphic" src="./images/grafica11.jfif" alt="" />
+        </section>
         <section class="solution" id="solucion">
-          <div class="solution__column-left">
-            <h2 class="solution__title">Solución</h2>
-            <p class="solution__paragraph">Explicacion de la solucion</p>
-          </div>
-          <div class="solution__column-right">
-            <img class="solution__graphic" src="./images/grafica4.PNG" alt="" />
-          </div>
+          <h2 class="solution__title">Recomendaciones para el negocio</h2>
+          <img src="" alt="" />
+          <p class="solution__paragraph">
+            Buscar la expansión de mercado hacia latinoamérica, considerando que
+            ya se tienen embarcaciones que llevan producto tanto a Norteamérica
+            como América del sur, podríamos buscar mercados como México, Chile,
+            Argentina, etc.
+          </p>
+          <p class="solution__paragraph">
+            Buscar a través de la transformación digital, mejorar las bases de
+            datos para incluir información que sea útil para las métricas del
+            negocio, como la categoría del producto, costos de envío,
+            continentes, etc.
+          </p>
+          <p class="solution__paragraph">
+            Crear programas para incentivar y fidelizar a nuestros clientes,
+            considerando los tipos de cliente, las costumbres de consumo y la
+            estacionalidad de las ventas.
+          </p>
+          <p class="solution__paragraph">
+            Incursionar en sistemas de calificación y reseñas de usuarios para
+            implementar análisis de sentimientos y un soporte a cliente ,
+            buscando mejorar la satisfacción del cliente y su recomendación.
+          </p>
+          <p class="solution__paragraph">
+            Implementar estrategias de venta como upselling y cross selling para
+            incentivar las ventas de productos no tan vendidos pero a través del
+            sistema de recomendaciones se concrete la venta.
+          </p>
         </section>
       </main>
       <footer class="footer" id="footer">
@@ -178,7 +339,7 @@
         <div class="footer__column-right">
           <h3 class="footer__title">&#169; 2024 The Data Guys</h3>
           <p class="footer__paragraph">Omar Alonso Hernández Vergara</p>
-          <p class="footer__paragraph">Claudio Mauricio Merino Besele</p>
+          <p class="footer__paragraph">Claudio Mauricio Merino Beseler</p>
           <p class="footer__paragraph">Catalina Belén Rivera Peña</p>
           <p class="footer__paragraph">Paola Flores Cedillo</p>
           <p class="footer__paragraph">Samantha Magdalena López Estudillo</p>

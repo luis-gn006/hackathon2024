@@ -33,14 +33,20 @@
     gap: 5%;
     margin: 0 2%;
   }
-  .data__2 {
+  .data__1 {
+    flex-direction: column;
+  }
+  .data__3 {
+    flex-direction: column;
+  }
+  .data__11 {
     flex-direction: column;
   }
   .data__title {
-    font-size: 26px;
+    font-size: 20px;
   }
   .data__paragraph {
-    font-size: 18px;
+    font-size: 14px;
   }
   .data__graphic {
     width: 95%;
