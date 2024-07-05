@@ -30,6 +30,8 @@
   .data {
     flex-direction: row;
     justify-content: space-around;
+    gap: 5%;
+    margin: 0 2%;
   }
   .data__2 {
     flex-direction: column;
