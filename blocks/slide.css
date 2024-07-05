@@ -1,0 +1,10 @@
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 90%;
+  height: 84%;
+  margin-left: 5%;
+}

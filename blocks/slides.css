@@ -1,0 +1,9 @@
+.slides {
+  width: 500%;
+  height: 84%;
+  display: flex;
+}
+
+.slides__input {
+  display: none;
+}

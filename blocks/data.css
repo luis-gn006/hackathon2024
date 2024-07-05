@@ -16,11 +16,23 @@
   margin-left: 3%;
   margin-top: 2%;
 }
+.data__iframe {
+  width: 90%;
+  height: 300px;
+}
 
+@media screen and (min-width: 500px) {
+  .data__iframe {
+    height: 350px;
+  }
+}
 @media screen and (min-width: 800px) {
   .data {
     flex-direction: row;
     justify-content: space-around;
+  }
+  .data__2 {
+    flex-direction: column;
   }
   .data__title {
     font-size: 26px;
@@ -31,5 +43,8 @@
   .data__graphic {
     width: 95%;
     margin-left: 3%;
+  }
+  .data__iframe {
+    height: 400px;
   }
 }
