@@ -8,7 +8,9 @@
 .header__title {
   font-size: 24px;
 }
-
+.header__nav {
+  display: none;
+}
 .header__nav-links {
   margin: 0;
   font-weight: 500;
@@ -26,6 +28,11 @@
   opacity: 0.8;
   filter: drop-shadow(0 4px 4px #5154db);
   cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .header__nav {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 800px) {

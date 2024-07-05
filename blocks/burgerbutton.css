@@ -1,0 +1,44 @@
+.burgerbutton__list {
+  display: none;
+  position: absolute;
+  right: 2%;
+}
+.burgerbutton__input:checked ~ .burgerbutton__list {
+  display: block;
+}
+
+.burgerbutton__input {
+  display: none;
+}
+
+.burgerbutton__label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  position: relative;
+  top: 15px;
+}
+
+.burgerbutton__list-item {
+  display: block;
+  background: #7e80ee;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid #000;
+  width: 60%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  .burgerbutton {
+    display: none;
+  }
+}

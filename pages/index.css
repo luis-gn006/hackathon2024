@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
+@import url("../blocks/burgerbutton.css");
 @import url("../blocks/aboutus.css");
 @import url("../blocks/data.css");
 @import url("../blocks/slider.css");
